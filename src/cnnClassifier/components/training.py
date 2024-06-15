@@ -1,5 +1,6 @@
 from cnnClassifier.entity.config_entity import TrainingConfig
 import tensorflow as tf
+
 from pathlib import Path
 from cnnClassifier.constants import *
 from cnnClassifier.utils.common import read_yaml, create_directories
